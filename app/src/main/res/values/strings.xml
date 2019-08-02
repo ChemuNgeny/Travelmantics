@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Travelmantics</string>
+    <string name="tv_price">TextView</string>
+    <string name="tv_description">TextView</string>
+    <string name="tv_title">TextView</string>
+    <string name="img_photo">TODO</string>
 </resources>

@@ -12,7 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class InsertActivity extends AppCompatActivity {
+public class DealActivity extends AppCompatActivity {
 
     public static FirebaseDatabase firebaseDb;
     public static DatabaseReference dbReference;

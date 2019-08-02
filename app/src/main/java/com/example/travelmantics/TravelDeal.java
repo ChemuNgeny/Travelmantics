@@ -1,35 +1,60 @@
 package com.example.travelmantics;
 
-public class TravelDeal {
+import java.io.Serializable;
 
-    public static String title;
-    public static String description;
-    public static String price;
+public class TravelDeal implements Serializable {
 
-    public TravelDeal() {
+    private String id;
+    private String title;
+    private String description;
+    private String price;
+    private String imgURL;
+
+    public TravelDeal(String id, String title, String description, String price, String imgURL) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.imgURL = imgURL;
     }
 
-    public static String getTitle() {
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
         return title;
     }
 
-    public static void setTitle(String title) {
-        TravelDeal.title = title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public static String getDescription() {
+    public String getDescription() {
         return description;
     }
 
-    public static void setDescription(String description) {
-        TravelDeal.description = description;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public static String getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public static void setPrice(String price) {
-        TravelDeal.price = price;
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getImgURL() {
+        return imgURL;
+    }
+
+    public void setImgURL(String imgURL) {
+        this.imgURL = imgURL;
     }
 }
