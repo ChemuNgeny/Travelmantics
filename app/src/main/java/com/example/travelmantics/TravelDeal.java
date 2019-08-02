@@ -10,6 +10,9 @@ public class TravelDeal implements Serializable {
     private String price;
     private String imgURL;
 
+    public TravelDeal() {
+    }
+
     public TravelDeal(String id, String title, String description, String price, String imgURL) {
         this.id = id;
         this.title = title;
